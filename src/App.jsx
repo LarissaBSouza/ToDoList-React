@@ -20,7 +20,7 @@ const App = () => {
     }
   ])
 
-  const handTaskAddition = (taskTitle) => {
+  const handleTaskAddition = (taskTitle) => {
     const newTasks = [
     ... tasks, 
     {
